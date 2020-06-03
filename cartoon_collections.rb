@@ -13,6 +13,8 @@ def summon_captain_planet(planeteer_calls)
 planeteer_calls.map do |element|
   new_array << element + "!"
   end
+  new_array
+
 end
 
 def long_planeteer_calls(planeteer_calls)
