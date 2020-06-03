@@ -14,7 +14,6 @@ planeteer_calls.map do |element|
   new_array << element + "!"
   end
   new_array
-
 end
 
 def long_planeteer_calls(planeteer_calls)
