@@ -20,8 +20,11 @@ def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
   new_array = []
-  while planeteer_calls.length == 4
-    puts.class
+  count = 4
+  while planeteer_calls.length < count do
+    return true
+  else return false
+  end
   end
 end
 
