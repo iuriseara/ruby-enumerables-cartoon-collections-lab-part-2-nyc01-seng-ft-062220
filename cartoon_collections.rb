@@ -21,7 +21,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   new_array = []
   while planeteer_calls.length == 4
-    puts new_array << planeteer_calls
+    puts.class
   end
 end
 
